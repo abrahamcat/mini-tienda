@@ -1,0 +1,18 @@
+.productos-section {
+    background-image: url('assets/img/fondo-mercado.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .producto-card {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .producto-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
