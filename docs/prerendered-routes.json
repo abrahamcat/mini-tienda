@@ -1,0 +1,7 @@
+{
+  "routes": {
+    "/mini-mercado": {},
+    "/mini-mercado/contacto": {},
+    "/mini-mercado/productos": {}
+  }
+}
