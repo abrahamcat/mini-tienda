@@ -2,34 +2,31 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: '/mini-mercado/',
+  baseHref: 'C:/Program Files/Git/mini-tienda/',
   locale: undefined,
   routes: [
   {
     "renderMode": 2,
-    "route": "/mini-mercado"
+    "route": "/Program%20Files/Git/mini-tienda"
   },
   {
     "renderMode": 2,
-    "route": "/mini-mercado/productos"
+    "route": "/Program%20Files/Git/mini-tienda/productos"
   },
   {
     "renderMode": 2,
-    "route": "/mini-mercado/contacto"
+    "route": "/Program%20Files/Git/mini-tienda/contacto"
   },
   {
     "renderMode": 2,
-    "redirectTo": "/mini-mercado",
-    "route": "/mini-mercado/**"
+    "redirectTo": "/Program%20Files/Git/mini-tienda",
+    "route": "/Program%20Files/Git/mini-tienda/**"
   }
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 5211, hash: '14de30839c638cd1acf08b7fcc8aaff873d8f1636be4badf55b7fd715621ef77', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1183, hash: '9902b21989b09c4213d873de80f6233fb3573f2b29260cc12a1476ad7696c4b7', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'productos/index.html': {size: 19005, hash: 'd5df4953f00c0fd6e559f6c5b9907bc7389e325ece6a5538eadd5d19bca1a7c1', text: () => import('./assets-chunks/productos_index_html.mjs').then(m => m.default)},
-    'index.html': {size: 24777, hash: '7289ede799098fc9ecc8b62167edc639050ac0988a38083282d8f9138de3b480', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
-    'contacto/index.html': {size: 19002, hash: '949a3935f37b642c9b2a1c8ac8e5a706040aa109dc2aa3b04cbf0d8d61783012', text: () => import('./assets-chunks/contacto_index_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 5230, hash: '2c3df202ddb099e4e6e3a0d34f919bf2f93dd03ec2d53c01cc490498d5c6db4b', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1202, hash: '73b47b31723719b2fcb566c8883381c2c7e7770842ff44654c0241fbfa6262de', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
     'styles-R7JO7PG3.css': {size: 314546, hash: 'jb+nSh1Y6vw', text: () => import('./assets-chunks/styles-R7JO7PG3_css.mjs').then(m => m.default)}
   },
 };

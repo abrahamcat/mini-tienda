@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/mini-mercado',
+  basePath: 'C:/Program Files/Git/mini-tienda',
   supportedLocales: {
   "en-US": ""
 },
